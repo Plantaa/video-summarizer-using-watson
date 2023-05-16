@@ -14,7 +14,7 @@ RUN python3 -m pip install --upgrade pip
 RUN python3 -m pip install wheel
 
 RUN python3 -m pip install -r requirements.txt
-# RUN python3 -m pip install torch==1.8.0 --no-cache-dir
+RUN python3 -m pip install torch==1.8.0 --no-cache-dir
 
 EXPOSE 8080
 
